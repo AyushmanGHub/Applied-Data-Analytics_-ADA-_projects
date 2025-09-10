@@ -1,5 +1,5 @@
 # Applied DataAnalytics(ADA) Projects
-This repository contains projects completed during my NLP course:
+This repository contains projects completed during my ADA course:
 
 
 ## Project 01. **Time Series Analysis and Forecasting for Network Link Utilization**
