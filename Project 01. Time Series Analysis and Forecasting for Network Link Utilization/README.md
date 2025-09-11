@@ -1,7 +1,14 @@
-## Project 01. **Time Series Analysis and Forecasting for Network Link Utilization**
+# **Time Series Analysis and Forecasting for Network Link Utilization**
 
 ### Introduction
 This project analyzes hourly network utilization data to identify trends, seasonality, and patterns, and to forecast future link usage. Multiple forecasting models are applied and compared to determine the most accurate and reliable approach.
+
+
+### Holt-Winters Exponential Smoothing Prediction in KiloByte(KB)
+<p align="center">
+  <img src="Resources/expo.png" alt="Residual Plot" width="700"/>
+</p>
+
 
 ## Problem Statement
 The project addresses key forecasting questions:  
@@ -17,7 +24,12 @@ The solution is implemented follows these steps:
 3. **Regression Model**: Apply linear regression with lag-based feature engineering.  
 4. **ARIMA Model**: Identify suitable ARIMA parameters using stationarity tests and ACF/PACF.  
 5. **Exponential Smoothing**: Fit Holt-Winters exponential smoothing for forecasting.  
-6. **Comparative Analysis**: Compare models using R², MSE, RMSE, MAE, and MAPE.  
+6. **Comparative Analysis**: Compare models using R², MSE, RMSE, MAE, and MAPE.
+
+### Residual of all four different models
+<p align="center">
+  <img src="Resources/residual01.png" alt="Residual Plot" width="700"/>
+</p>
 
 ### Technologies Used
 - Python, pandas, numpy, matplotlib, seaborn
