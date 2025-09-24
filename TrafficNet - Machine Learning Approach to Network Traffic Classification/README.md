@@ -12,7 +12,7 @@ The project follows a standard ML workflow:
 - **Results Analysis**: Evaluate models with accuracy, precision, recall, and F1-score to determine the best approach.
 
 
-### Target Labels of Network classification
+#### `Target Labels of Network classification`
 <p align="center">
   <img src="images/label.png" alt="Target Labels distribution" width="800"/>
 </p>
@@ -46,7 +46,7 @@ To tackle the problem, multiple ML models were trained and compared:
 | **LDA**          | 0.6570   | 0.6532                | 0.6570            | 0.6390   |
 | **KNN**          | 0.4570   | 0.4370                | 0.4570            | 0.4392   |
 
-### Visual representation of evaluation
+#### `Visual representation of evaluation`
 <p align="center">
   <img src="images/result1.png" alt="Evaluation metrices distribution" width="800"/>
 </p>
@@ -54,7 +54,7 @@ To tackle the problem, multiple ML models were trained and compared:
 
 ### **Analysis**
 
-### Visual representation of evaluation
+#### `Variance in data explained by model`
 <p align="center">
   <img src="images/resultr2.png" alt="R2 score - what fraction of variance is expalined by model" height= "450" width="800"/>
 </p>
