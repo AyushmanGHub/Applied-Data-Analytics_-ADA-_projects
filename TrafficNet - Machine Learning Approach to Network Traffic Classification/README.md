@@ -12,6 +12,12 @@ The project follows a standard ML workflow:
 - **Results Analysis**: Evaluate models with accuracy, precision, recall, and F1-score to determine the best approach.
 
 
+### Target Labels of Network classification
+<p align="center">
+  <img src="images/label.png" alt="Target Labels distribution" width="700"/>
+</p>
+
+
 ## **Problem Statement**
 
 Traditional methods like port-based classification are insufficient for today’s complex and encrypted traffic. This project addresses:
@@ -40,8 +46,20 @@ To tackle the problem, multiple ML models were trained and compared:
 | **LDA**          | 0.6570   | 0.6532                | 0.6570            | 0.6390   |
 | **KNN**          | 0.4570   | 0.4370                | 0.4570            | 0.4392   |
 
+### Visual representation of evaluation
+<p align="center">
+  <img src="images/result1.png" alt="Target Labels distribution" width="700"/>
+</p>
+
+
 ### **Analysis**
-- **Random Forest** achieved the highest performance, handling complex and non-linear feature relationships.
+
+### Visual representation of evaluation
+<p align="center">
+  <img src="images/resultr2.png" alt="Target Labels distribution" width="700"/>
+</p>
+
+- **Random Forest** achieved the highest performance, handling complex and non-linear feature relationships and explains highest variance in data as shown in plot.
 - **XGBoost** performed well but was slightly less accurate than Random Forest.
 - **KNN and LDA** underperformed, showing that traffic classes are not easily separable by simple linear or distance-based methods.
 - Ensemble methods (Random Forest, XGBoost) proved most effective.
