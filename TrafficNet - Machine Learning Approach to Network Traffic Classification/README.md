@@ -48,7 +48,7 @@ To tackle the problem, multiple ML models were trained and compared:
 
 ### Visual representation of evaluation
 <p align="center">
-  <img src="images/result1.png" alt="Target Labels distribution" width="800"/>
+  <img src="images/result1.png" alt="Evaluation metrices distribution" width="800"/>
 </p>
 
 
@@ -56,7 +56,7 @@ To tackle the problem, multiple ML models were trained and compared:
 
 ### Visual representation of evaluation
 <p align="center">
-  <img src="images/resultr2.png" alt="Target Labels distribution" height= "450" width="800"/>
+  <img src="images/resultr2.png" alt="R2 score - what fraction of variance is expalined by model" height= "450" width="800"/>
 </p>
 
 - **Random Forest** achieved the highest performance, handling complex and non-linear feature relationships and explains highest variance in data as shown in plot.
