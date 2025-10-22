@@ -16,11 +16,8 @@ The project follows a comprehensive workflow:
   * **Results Analysis**: Comparing model performance to determine the most effective approach for intrusion detection.
 
 #### `Target 'Attack' Class Distribution`
-
-*(**Note**: You can add your plot from cell 17 here. Save the plot as an image file in your repository, for example, in an `images/` folder, and update the path below.)*
-
 \<p align="center"\>
-  \<img src="images/attack\_distribution.png" alt="Target Labels distribution" width="800"/\>
+  \<img src="resources/img01.png" alt="Target Labels distribution" width="800"/\>
 \</p\>
 
 ## **Problem Statement**
@@ -44,8 +41,6 @@ The dataset (`netflow.csv`) is a large-scale collection of network flow records,
   * `TCP_FLAGS`
   * `FLOW_DURATION_MILLISECONDS`
 
-The dataset is too large to include in this repository.
-*(You can add a download link here if you have one)*
 
 ## **Solution and Approach**
 
@@ -73,6 +68,12 @@ This task involved identifying the specific type of traffic (e.g., 'Benign', 'Do
 | **KNN** | 0.904 | 0.919 | 0.904 | 0.909 |
 | **XGBoost** | 0.886 | 0.920 | 0.886 | 0.895 |
 
+#### `Visual representation`
+\<p align="center"\>
+  \<img src="resources\res1a.png" alt="Multiclass evaluation metrics" width="800"/\>
+  \<img src="resources\res1a.png" alt="Multiclass R2 Score" width="800"/\>
+\</p\>
+
 ### **Binary Classification Results (Benign vs. Attack)**
 
 This task simplified the problem to a binary "normal" (0) or "malicious" (1) label.
@@ -83,10 +84,10 @@ This task simplified the problem to a binary "normal" (0) or "malicious" (1) lab
 | **KNN** | 0.992 | 0.991 |
 | **XGBoost** | 0.989 | 0.988 |
 
-#### `Visual representation of evaluation`
+#### `Visual representation`
 \<p align="center"\>
-  \<img src="images/multiclass\_results.png" alt="Multiclass evaluation metrics" width="800"/\>
-  \<img src="images/binary\_results.png" alt="Binary evaluation metrics" width="800"/\>
+  \<img src="resources\res1a.png" alt="Binary-class evaluation metrics" width="800"/\>
+  \<img src="resources\res1a.png" alt="Binary-class R2 Score" width="800"/\>
 \</p\>
 
 ### **Analysis**
