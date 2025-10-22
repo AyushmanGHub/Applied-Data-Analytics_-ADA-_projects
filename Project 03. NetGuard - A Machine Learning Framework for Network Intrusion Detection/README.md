@@ -16,9 +16,9 @@ The project follows a comprehensive workflow:
   * **Results Analysis**: Comparing model performance to determine the most effective approach for intrusion detection.
 
 #### `Target 'Attack' Class Distribution`
-\<p align="center"\>
-  \<img src="resources/img01.png" alt="Target Labels distribution" width="800"/\>
-\</p\>
+<p align="center">
+  <img src="resources/img01.png" alt="Target Labels distribution" width="800"/>
+</p>
 
 ## **Problem Statement**
 
@@ -69,10 +69,10 @@ This task involved identifying the specific type of traffic (e.g., 'Benign', 'Do
 | **XGBoost** | 0.886 | 0.920 | 0.886 | 0.895 |
 
 #### `Visual representation`
-\<p align="center"\>
-  \<img src="resources\res1a.png" alt="Multiclass evaluation metrics" width="800"/\>
-  \<img src="resources\res1a.png" alt="Multiclass R2 Score" width="800"/\>
-\</p\>
+<p align="center">
+  <img src="resources\res1a.png" alt="Multiclass evaluation metrics" width="800"/>
+  <img src="resources\res1a.png" alt="Multiclass R2 Score" width="800"/>
+</p>
 
 ### **Binary Classification Results (Benign vs. Attack)**
 
@@ -85,10 +85,10 @@ This task simplified the problem to a binary "normal" (0) or "malicious" (1) lab
 | **XGBoost** | 0.989 | 0.988 |
 
 #### `Visual representation`
-\<p align="center"\>
-  \<img src="resources\res1a.png" alt="Binary-class evaluation metrics" width="800"/\>
-  \<img src="resources\res1a.png" alt="Binary-class R2 Score" width="800"/\>
-\</p\>
+<p align="center">
+  <img src="resources\res1a.png" alt="Binary-class evaluation metrics" width="800"/>
+  <img src="resources\res1a.png" alt="Binary-class R2 Score" width="800"/>
+</p>
 
 ### **Analysis**
 
