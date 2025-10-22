@@ -71,7 +71,7 @@ This task involved identifying the specific type of traffic (e.g., 'Benign', 'Do
 #### `Visual representation`
 <p align="center">
   <img src="resources\res1a.png" alt="Multiclass evaluation metrics" width="800"/>
-  <img src="resources\res1a.png" alt="Multiclass R2 Score" width="800"/>
+  <img src="resources\res1b.png" alt="Multiclass R2 Score" width="800"/>
 </p>
 
 ### **Binary Classification Results (Benign vs. Attack)**
@@ -86,8 +86,8 @@ This task simplified the problem to a binary "normal" (0) or "malicious" (1) lab
 
 #### `Visual representation`
 <p align="center">
-  <img src="resources\res1a.png" alt="Binary-class evaluation metrics" width="800"/>
-  <img src="resources\res1a.png" alt="Binary-class R2 Score" width="800"/>
+  <img src="resources\res2a.png" alt="Binary-class evaluation metrics" width="800"/>
+  <img src="resources\res2b.png" alt="Binary-class R2 Score" width="800"/>
 </p>
 
 ### **Analysis**
