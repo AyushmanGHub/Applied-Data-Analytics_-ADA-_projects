@@ -8,6 +8,9 @@ This project applies time series forecasting techniques to predict future **netw
 ## Project 02. **TrafficNet - ML Approach to Network Traffic Classification**
 This TrafficNet Project applies machine learning approach for network traffic classification using flow-based features from the Unicauca dataset (2.7M+ rows, 50 features). The pipeline includes data exploration, feature selection, model training, and evaluation. Four algorithms—Random Forest, XGBoost, KNN, and LDA—were tested. Random Forest achieved the best performance (98% accuracy), followed by XGBoost (90%), while KNN and LDA underperformed. Results show that ensemble methods handle complex, non-linear relationships effectively, outperforming simple linear or distance-based models.
 
+## Project 03. **NetGuard - ML for Network Intrusion Detection**
+This project used machine learning (Random Forest, XGBoost, KNN) to detect network intrusions on the `netflow.csv` dataset (216M+ rows). After critical data balancing via oversampling, models were tested on both binary (Benign vs. Attack) and multi-class (attack type) tasks. All models excelled at binary classification (99%+ accuracy), with Random Forest leading (99.6%). Random Forest also performed best on the multi-class task (90.9% accuracy), followed by KNN (90.4%), proving it the most robust solution overall.
+
 
 ---
 ## 🤝 Let’s Connect!
