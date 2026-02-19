@@ -11,6 +11,10 @@ This TrafficNet Project applies machine learning approach for network traffic cl
 ## Project 03. **NetGuard - ML for Network Intrusion Detection**
 This project used machine learning (Random Forest, XGBoost, KNN) to detect network intrusions on the `netflow.csv` dataset (216M+ rows). After critical data balancing via oversampling, models were tested on both binary (Benign vs. Attack) and multi-class (attack type) tasks. All models excelled at binary classification (99%+ accuracy), with Random Forest leading (99.6%). Random Forest also performed best on the multi-class task (90.9% accuracy), followed by KNN (90.4%), proving it the most robust solution overall.
 
+## Project 04. **GraphMinds - Algorithmic Exploration of Network Communities**
+This project applies multiple community detection algorithms (Girvan–Newman, Louvain, Spectral Clustering, Label Propagation, Hierarchical Clustering) on the Enron Email Network (36K+ nodes, 183K+ edges) to uncover hidden organizational structures. The study compares scalability, interpretability, and structural clarity across methods. Louvain emerged as the most balanced and efficient approach for large-scale community detection, while Spectral and Hierarchical methods provided deeper structural insights. Girvan–Newman offered accurate modular partitions but was computationally expensive, and Label Propagation delivered fast yet less stable results — highlighting key trade-offs in real-world network analysis.
+
+
 
 ---
 ## 🤝 Let’s Connect!
