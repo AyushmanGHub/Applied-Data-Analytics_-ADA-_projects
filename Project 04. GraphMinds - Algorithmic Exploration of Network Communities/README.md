@@ -17,7 +17,7 @@ The project follows a comprehensive workflow:
 #### `Main Enron Communication Graph`
 
 <p align="center">
-  <img src="plots/Enron_Full_Network.png" alt="Main Enron Graph" width="800" height="350"/>
+  <img src="plots/Enron_Full_Network.png" alt="Main Enron Graph" width="800" height="450"/>
 </p>
 
 
@@ -94,7 +94,7 @@ Each algorithm revealed distinct structural properties of the network.
 ### **1️. Girvan–Newman Communities**
 
 <p align="center">
-  <img src="plots/1aGirvan–NewmanAlgorithm.png" alt="Girvan Newman Communities" width="800" height="300"/>
+  <img src="plots/1aGirvan–NewmanAlgorithm.png" alt="Girvan Newman Communities" width="800" height="400"/>
 </p>
 
 * Produces clear modular boundaries.
@@ -105,7 +105,7 @@ Each algorithm revealed distinct structural properties of the network.
 ### **2️. Louvain Communities**
 
 <p align="center">
-  <img src="plots/1bLouvainAlgorithm.png" alt="Louvain Communities" width="800" height="300"/>
+  <img src="plots/1bLouvainAlgorithm.png" alt="Louvain Communities" width="800" height="400"/>
 </p>
 
 * Best overall balance between scalability and modularity.
@@ -116,7 +116,7 @@ Each algorithm revealed distinct structural properties of the network.
 ### **3️. Spectral Clustering Communities**
 
 <p align="center">
-  <img src="plots/2SpectralClustering(GraphLaplacian)Algorithm.png" alt="Spectral Communities" width="800" height="300"/>
+  <img src="plots/2SpectralClustering(GraphLaplacian)Algorithm.png" alt="Spectral Communities" width="800" height="400"/>
 </p>
 
 * Reveals high-level structural partitions.
@@ -126,7 +126,7 @@ Each algorithm revealed distinct structural properties of the network.
 ### **4️. Label Propagation Communities**
 
 <p align="center">
-  <img src="plots/3LabelPropagationMethodAlgorithm.png" alt="Label Propagation Communities" width="800" height="300"/>
+  <img src="plots/3LabelPropagationMethodAlgorithm.png" alt="Label Propagation Communities" width="800" height="400"/>
 </p>
 
 * Extremely fast and scalable.
@@ -136,7 +136,7 @@ Each algorithm revealed distinct structural properties of the network.
 ### **5️. Hierarchical Clustering Communities**
 
 <p align="center">
-  <img src="plots/4HierarchicalClusteringMethod.png" alt="Hierarchical Communities" width="800" height="300"/>
+  <img src="plots/4HierarchicalClusteringMethod.png" alt="Hierarchical Communities" width="800" height="400"/>
 </p>
 
 * Provides interpretable nested community structures.
@@ -161,4 +161,5 @@ The comparison demonstrates that no single algorithm is universally superior —
 * **Scientific Computing**: `numpy`, `scipy`
 * **Clustering & ML Utilities**: `scikit-learn`
 * **Visualization**: `matplotlib`
+
 * **Data Handling**: `pandas`
