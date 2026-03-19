@@ -24,11 +24,3 @@ This project consists of three comprehensive real-world data science problems co
 2️. `AirSense - Intelligent AQI Forecasting System` : This problem develops a predictive framework for estimating Air Quality Index (AQI), AQI category, and dominant pollutant using environmental and pollutant data from Pune. It conatins bias analysis and KNN-based missing value imputation, Random Forest modelling. The system is fully scalable for deployment across Indian cities and supports policy-driven automation.
 
 3️. `BoxOfficeAI - Decoding Movie Revenue Drivers` : This project analyzes the determinants of movie revenue using metadata (genre, actors, runtime) and plot text features. Three models were compared — metadata-only, text-only, and combined — with the integrated model performing best (R² ≈ 0.35). The findings show that genre and narrative themes are stronger predictors than actors, revealing how structural and storytelling elements influence commercial success.
-
----
-## 🤝 Let’s Connect!
-
-I’m always open to meaningful conversations, collaborative projects, and idea exchanges.  
-If you’re interested in exploring new insights, working together on related topics, or contributing to ongoing discussions — feel free to reach out!  
-
-**Let’s learn and build together 🚀**
